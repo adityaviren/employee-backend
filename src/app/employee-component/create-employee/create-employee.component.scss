@@ -1,0 +1,117 @@
+.mat-toolbar-row, .mat-toolbar-single-row {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 150px;
+}
+.mat-toolbar {
+    background: #f5f5f5;
+    color: rgba(0,0,0,.87);
+}
+.mat-toolbar, .mat-toolbar h1, .mat-toolbar h2, .mat-toolbar h3, .mat-toolbar h4, .mat-toolbar h5, .mat-toolbar h6 {
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.employee-head{
+    color: #82A70C;
+    font-size: 22px;
+    margin-left: 165%;
+}
+
+.payroll-head{
+    font-size: 22px;
+    margin-left: 165%;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+}
+.mat-card {
+    background: #fff;
+    color: rgba(0,0,0,.87);
+}
+.mat-focus-indicator {
+    position: relative;
+}
+.mat-card {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.card{
+    max-width: 70%;
+    margin: auto;
+    align-self: center;
+}
+
+.divbody{
+    margin-top: 5%;
+    align-items: center;
+    align-self: center;
+}
+
+.attribute{
+    margin-top: 10px;
+}
+
+.attribute-input{
+    margin-left: 10%;
+    width: 40%;
+}
+
+.mat-form-field {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.mat-form-field {
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.125;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0 0 0 0;
+}
+
+.mat-form-field-infix {
+    display: block;
+    position: relative;
+    flex: auto;
+    min-width: 450px;
+    width: 450px;
+}
+.mat-form-field-infix {
+    padding: 0 0;
+    border-top: .84375em solid transparent;
+}
+
+.mat-form-field-flex {
+    display: inline-flex;
+    align-items: baseline;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 59%;
+}
