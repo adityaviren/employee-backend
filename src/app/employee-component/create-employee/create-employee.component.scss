@@ -76,6 +76,7 @@
 .attribute-input{
     margin-left: 10%;
     width: 40%;
+    justify-content: space-evenly center;
 }
 
 .mat-form-field {
@@ -100,7 +101,7 @@
     display: block;
     position: relative;
     flex: auto;
-    min-width: 450px;
+    min-width: 70%;
     width: 450px;
 }
 .mat-form-field-infix {
@@ -114,4 +115,27 @@
     box-sizing: border-box;
     width: 100%;
     margin-left: 59%;
+}
+
+.radio-button-space{
+    padding-left: 5%;
+}
+
+.department-checkbox{
+    justify-content: space-evenly center;
+    margin-left: 5%;
+}
+
+.checkbox-space{
+    padding-left: 5%;
+}
+
+.header-font{
+    text-align: left;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.register-button{
+    margin:10px 0 10px 0;
 }

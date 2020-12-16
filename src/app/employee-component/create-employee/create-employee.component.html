@@ -19,10 +19,60 @@
         </div>
         <div class="attribute">
             <span>Gender</span>
-            <mat-radio-group aria-label="Select an option">
-                <mat-radio-button value="1">Option 1</mat-radio-button>
-                <mat-radio-button value="2">Option 2</mat-radio-button>
+            <mat-radio-group aria-label="Select an option" class="attribute-input">
+                <mat-radio-button value="1" >Male</mat-radio-button>
+                <mat-radio-button value="2" class="radio-button-space">Female</mat-radio-button>
+                <mat-radio-button value="3" class="radio-button-space">Others</mat-radio-button>
               </mat-radio-group>
+        </div>
+        <div class="attribute">
+            <span>Salary</span>
+            <mat-slider min="10000" max="50000" step="1000" value="30000" class="attribute-input"></mat-slider>
+        </div>
+        <div class="attribute" >
+            <span>Department</span>
+            <mat-checkbox class="department-checkbox" *ngFor="let department of Department" value="department">{{department}}
+            </mat-checkbox>
+        </div>
+        <div class="attribute">
+            <span>Date</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Date</mat-label>
+                <select matNativeControl required formControlName="day" class="date-select">
+                    <option *ngFor="let day of Day " [value]="day">
+                        {{day}}
+                      </option>
+                </select>
+              </mat-form-field>
+              <span>Month</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Month</mat-label>
+                <select matNativeControl required formControlName="month" class="month-select">
+                    <option *ngFor="let month of Month " [value]="month">
+                        {{month}}
+                      </option>
+                </select>
+              </mat-form-field>
+              <span>Year</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Year</mat-label>
+                <select matNativeControl required formControlName="year" class="year-select">
+                    <option *ngFor="let year of Year " [value]="year">
+                        {{year}}
+                      </option>
+                </select>
+              </mat-form-field>
+        </div>
+        <div class="attribute">
+            <Span>Notes</Span>
+            <mat-form-field appearance="fill" class="attribute-input">
+                <mat-label>Notes</mat-label>
+                <textarea matInput></textarea>
+              </mat-form-field>
+        </div>
+        <div>
+            <button class="register-button" mat-raised-button color="primary" >Submit</button>
+            <button class="register-button" mat-raised-button color="primary" >Reset</button>
         </div>
     </mat-card>
 </div>

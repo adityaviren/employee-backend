@@ -12,6 +12,8 @@ import { MatInputModule } from '@angular/material/input';
 import {MatFormFieldModule,MatFormFieldControl} from '@angular/material/form-field';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -22,12 +24,14 @@ import {MatRadioModule} from '@angular/material/radio';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatCheckboxModule,
     MatToolbarModule,
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
     FlexLayoutModule,
-    MatRadioModule
+    MatRadioModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
